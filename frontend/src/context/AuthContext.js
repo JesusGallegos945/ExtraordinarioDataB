@@ -18,7 +18,7 @@ export const AuthProvider = ({ children }) => {
 
     // Configurar axios para incluir cookies
     axios.defaults.withCredentials = true;
-    axios.defaults.baseURL = 'http://localhost:3000/api';
+    axios.defaults.baseURL = process.env.REACT_APP_API_URL || 'http://localhost:3000/api';
 
     // Configuración básica de axios sin interceptor global
 
