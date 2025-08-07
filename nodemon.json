@@ -1,0 +1,12 @@
+{
+  "watch": ["src"],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules",
+    "frontend",
+    "*.test.js",
+    "*.spec.js",
+    "testAuth.js"
+  ],
+  "delay": 1000
+}
