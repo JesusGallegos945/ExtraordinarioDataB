@@ -16,9 +16,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-vercel-app.vercel.app'] 
-    : ['http://localhost:3001'],
+  origin: 'http://localhost:3001',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
 }));
