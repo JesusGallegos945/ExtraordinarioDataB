@@ -59,8 +59,7 @@ const Home = () => {
             title: 'Gestión de Clientes',
             description: 'Administra la información de tus clientes, crea nuevos perfiles y mantén actualizada su información.',
             actions: [
-                { label: 'Ver Clientes', link: '/customers', icon: <VisibilityOutlined /> },
-                { label: 'Crear Cliente', link: '/create-customer', icon: <AddCircleOutlined /> }
+                { label: 'Gestionar Clientes', link: '/customers', icon: <PeopleOutlined /> }
             ]
         },
         {
@@ -68,8 +67,7 @@ const Home = () => {
             title: 'Gestión de Tours',
             description: 'Crea, modifica y elimina tours. Gestiona precios, fechas disponibles y descripciones.',
             actions: [
-                { label: 'Ver Tours', link: '/tours', icon: <VisibilityOutlined /> },
-                { label: 'Crear Tour', link: '/create-tour', icon: <AddCircleOutlined /> }
+                { label: 'Gestionar Tours', link: '/tours', icon: <TourOutlined /> }
             ]
         },
         {
@@ -77,8 +75,7 @@ const Home = () => {
             title: 'Gestión de Reservas',
             description: 'Administra las reservas de tus clientes, crea nuevas reservas y gestiona cancelaciones.',
             actions: [
-                { label: 'Ver Reservas', link: '/reservations', icon: <VisibilityOutlined /> },
-                { label: 'Crear Reserva', link: '/create-reservation', icon: <AddCircleOutlined /> }
+                { label: 'Gestionar Reservas', link: '/reservations', icon: <BookOnlineOutlined /> }
             ]
         }
     ];

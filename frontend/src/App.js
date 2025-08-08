@@ -11,9 +11,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Reservations from './pages/Reservations';
 import Customers from './pages/Customers';
-import CreateCustomer from './pages/CreateCustomer';
-import CreateTour from './pages/CreateTour';
-import CreateReservation from './pages/CreateReservation';
+
 
 const theme = createTheme({
   palette: {
@@ -45,9 +43,7 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/reservations" element={<Reservations />} />
-                <Route path="/create-customer" element={<CreateCustomer />} />
-                <Route path="/create-tour" element={<CreateTour />} />
-                <Route path="/create-reservation" element={<CreateReservation />} />
+
               </Routes>
             </Box>
             <Footer />
